@@ -1,4 +1,4 @@
-# trigger rebuild
+# trigger rebuild 2
 import runpod
 from diffusers import StableDiffusionPipeline
 import torch
