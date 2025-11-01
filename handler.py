@@ -1,4 +1,7 @@
 # trigger rebuild 10
+import os
+os.environ.pop("HF_HUB_ENABLE_HF_TRANSFER", None)
+
 import runpod
 from diffusers import StableDiffusionPipeline
 import torch
