@@ -3,3 +3,4 @@ torch
 diffusers
 transformers
 safetensors
+hf_transfer==0.1.5
